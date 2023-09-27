@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+</head>
+<body>
+    <!-- 
+        tag form  digunakaan untuk membuat form pada html
+        action digunakan untukk mengarahkan form ke halaman lain
+        method digunakan untuk ,enentukan metode pengiriman data
+        label digunakan untuk menampilkan informasi input
+        input digunakan untuk membuat inputan
+        type digunakan untuk menetukan tipe inputan
+        name digunakan untuk menentukan nama inputan
+        button type submit digunaakn untuk mengirim form
+        button type reset digunakan untuk mengosongkan form
+     -->
+    <form action="" method="GET">
+        <label for="Email">Email</label>
+        <input type="email" name="email">
+
+        <br>
+
+        <label for="Nama">Nama</label>
+        <input type="Nama" name="Nama">
+
+        <br>
+
+        <label for="password">password</label>
+        <input type="password" name="password">
+
+        <br>
+
+        <label for="jenis_kelamin">Jenis Kelamin</label>
+        <input type="radio" name="jenis_kelmain" value="Laki-laki">Laki-laki
+        <input type="radio" name="jenis_kelmain" value="Perempuan">Perempuan
+
+        <br>
+
+        <label for="agama">Agama</label>
+        <select name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+        </select>
+
+        <br>
+
+        <label for="Alamat">Alamat</label>
+        <br>
+        <textarea name="alamat" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <label for="hobi">hobi</label>
+        <input type="checkbox" name="hobi[]" value="membaca">membaca
+        <input type="checkbox" name="hobi[]" value="menggambar">menggambar
+        <input type="checkbox" name="hobi[]" value="Bermain Game">Bermain Game
+
+        <br>
+
+        <label for="foto">foto</label>
+        <input type="file" nama="foto">
+
+        <br>
+
+        <label for="tanggal_lahir">tanggal lahir</label>
+        <input type="date" name="tanggal_lahir">
+        <br>
+
+        <button type="submit">Daftar</button>
+        <button type="reset">kosongkan halaman</button>
+    </form>
+</body>
+</html>
