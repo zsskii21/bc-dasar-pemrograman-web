@@ -1,0 +1,119 @@
+.btn-primary {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0.75rem 1rem;
+
+    transition: .5s all ease;
+
+    /* mengubah jenis kursor */
+    cursor: pointer;
+}
+
+/* pseudo element */
+.btn-primary:hover{
+    background-color: #333;
+    transform: scale(1.1);
+    /* transform: rotate(360deg); */
+    /* transform: translateX(20px); */
+    /* transform: translateY(20px); */
+}
+
+/* kondisi ketika element di click */
+.btn-primary:active{
+    background-color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table tr th{
+    border: 1px solid black;
+}
+
+table tr td{
+    border: 1px solid black;
+}
+
+/* 2n itu mksdnya mau selalg seling berapa baris dan nant berwana */
+table tr:nth-child(2n){
+    background-color: #699b18;
+}
+
+/* first child mengubah style elemen pertama */
+table tr:first-child{
+    background-color: #b3c232;
+    color: white;
+}
+
+/* mengubah style elemen terkahir */
+/* table tr:last-child{
+    background-color: #333;
+    color: white;
+} */
+
+/* pseudo element */
+p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+p::first-line{
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+}
+
+h1::before{
+    content: "🤷";
+}
+
+h1::after{
+    content: "🐱‍🐉";
+}
+
+.flexbox{
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    border-radius: 8px;
+}
+
+.flex-container{
+    /* display flex mengubah tamilan jadi row/baris */
+    display: flex;
+    /* memberikan jarak antar box */
+    gap: 1rem;
+    /* justify-content: space-between; */
+
+    /* mengatur arah flex secara horizontal */
+    justify-content: center;
+
+    /* vertikal */
+    align-items: center;
+}
+
+.flexbox-2{
+    height: 120px;
+}
+
+.flexbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .2rem;
+}
+
+.flexbox:hover {
+    transform: translateY(20px);
+}
+
+.flexbox-2:hover{
+    transform: scale(1.1);
+}

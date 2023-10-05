@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Young+Serif&display=swap');
+
+* {
+    /* mengubah font */
+    font-family: 'Young Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* properti backround */
+
+    /* mengubah warna latar beakang */
+     background-color: pink;
+
+    /* mengubah latar belakag menjadi gambar */
+    /* background-image: url(../image/sawah.jpg); */
+
+    /* agar gambar tidak berulang */
+    background-repeat: no-repeat;
+
+    /* mengatur ukuran  gambar */
+    background-size: cover;
+}
+
+.rectangle {
+    /* properti lebar tinggi */
+    /* width unutk megatur lebar */
+    /* heigh untuk mengatur tinggi */
+    width: 100px;
+    height: 100px;
+
+    background-color: blue;
+
+    /* properti border */
+    /* 3px untuk ukuran, solid dashed jenis, white warna */
+    border: 3px solid white;
+    border: 3px dashed white;
+}
+
+h1 {
+    /* mengubah ketebalan font */
+    font-weight: 500;
+
+    /* mengubah ukuran font */
+    /* 1 rem = 16px */
+    font-size: 5rem;
+
+    /* mengatur kemiringan font */
+    font-style: italic;
+
+    /* mengatur font menjadi huruf kapital */
+    font-variant: small-caps;
+}
+
+.margin {
+    /* marigin memberikan jarak luar semua sisi */
+    /* margin 1rem */
+    margin-top: 1rem;
+    /* margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; */
+}
+
+.pengumuman {
+    background-color: yellow;
+
+    /* padding properti */
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+p{
+    /* teks properti */
+
+    /* mengubah warna teks */
+    color: red;
+
+    /* memberikan jarak antar alphabet */
+    letter-spacing: .5rem;
+
+    /* memberikan jarak antar baris */
+    line-height: 3rem;
+
+    /* mengatur posisi teks */
+    text-align: center;
+    /* text-align: left;
+    text-align: right; */
+
+    /* memberikan garis bawah pada sebuah teks */
+    text-decoration: underline;
+}
+
+/* display property */
+.display {
+    /* menghilangkan elemen */
+    display: none;
+
+    /* menampilkan elemen */
+    display: block;
+}
+
+/* border radius berfungsi memberikan garis lengkung */
+.border-radius {
+
+    border-radius: 1rem;
+    border-radius: 50px;
+}
+
+header {
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+
+    /* mengatur osisi sebuah elemen agar fix */
+    position: fixed;
+
+    /* memindahkan element dilayer paling atas */
+    z-index: 999;
+}
+
+.rectangle{
+    position: relative;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+
+    /* mengatur element posisinya bebas */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}

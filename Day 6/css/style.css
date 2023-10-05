@@ -1,0 +1,37 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(160, 146, 25);
+    animation: move 5s linear infinite;
+}
+
+@keyframes move{
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(1000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    animation: slideDown 1s linear infinite;
+}
+
+@keyframes slideDown{
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

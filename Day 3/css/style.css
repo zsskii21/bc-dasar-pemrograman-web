@@ -1,0 +1,29 @@
+h3 {
+    color: pink;
+}
+
+/* selektor tag */
+p{
+    color: green;
+}
+
+h6 {
+    color: yellow;
+}
+
+/* selektor class */
+.teks-ungu {
+    color: purple;
+}
+.teks-orange {
+    color: orange;
+}
+
+/* selektor id */
+#teks-biru {
+    color: blue;
+}
+
+.teks-besar {
+    font-size: 80px;
+}
